@@ -7,6 +7,14 @@ const GlobalStyle = createGlobalStyle `
     margin: 0;
     padding: 0;
 }
+
+.interface{
+    max-width: 1280px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
 `
 
 export default GlobalStyle

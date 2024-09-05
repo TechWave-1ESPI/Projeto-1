@@ -24,7 +24,6 @@ const Nav = () => {
                         <ul className="menuBag">
                             <i class="bi bi-bag"></i>   
                         </ul>
-
                     </nav>
 
                 </section>

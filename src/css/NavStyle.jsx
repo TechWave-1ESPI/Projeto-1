@@ -9,10 +9,11 @@ img{
 
 #nav{
     display: flex;
-    background-color: #dddddd;
     padding: 0 6%;
+    background-color: #fdfdfd;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0px 0px 10px #f0f0f0;
 }
 
 .menuNav{
