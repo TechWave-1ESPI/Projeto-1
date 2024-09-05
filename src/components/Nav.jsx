@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { NavStyle } from "../css/NavStyle"
 import "bootstrap-icons/font/bootstrap-icons.css";
+import Logo from '../assets/sport store center.svg'
 
 const Nav = () => {
     return(
@@ -8,7 +9,7 @@ const Nav = () => {
             
             <NavStyle>
                 <section id="nav">
-                    <h1>Foto Site</h1>
+                    <Link to='/'><img src={Logo} alt="logo site"/></Link>
                     <nav className="menuNav">
                         <ul className="menuLink">
                             <li><Link to='/' className="link">Home</Link></li>

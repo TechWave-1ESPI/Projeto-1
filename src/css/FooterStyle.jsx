@@ -1,11 +1,6 @@
 import styled from 'styled-components'
 
 export const FooterStyle = styled.section `
-*{
-    font-family: "Work Sans", sans-serif;
-    margin: 0;
-    padding: 0;
-}
 
 #footer{
     display: flex;
@@ -14,6 +9,7 @@ export const FooterStyle = styled.section `
     width: 100%;
     background-color: #111111;
     color: #d3d0d0;
+    justify-content: space-evenly;
 }
 
 #informacoes{
@@ -44,4 +40,22 @@ export const FooterStyle = styled.section `
     font-size: 25px;
 }
 
+#termos-autorizacao{
+    display: flex;
+    align-items: center;
+    padding: 0 6%;
+    justify-content: space-between;
+    font-size: 14px;
+    border-top: 1px solid white;
+}
+
+#termos-autorizacao ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+#cookies{
+    display: flex;
+    gap: 20px;
+}
 `

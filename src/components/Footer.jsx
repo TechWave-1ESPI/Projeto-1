@@ -27,7 +27,17 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <h4>@2024 - Todos os Direitos Reservados</h4>
+                <div id="termos-autorizacao">
+                    <ul>
+                        <li><p>Copyright @2024 - Todos os Direitos Reservados</p></li>
+                    </ul>
+                    
+                    <ul id="cookies">
+                        <li>Privacy & Cookies</li>
+                        <li>|</li>
+                        <li>Accessibility</li>
+                    </ul>
+                </div>
             </section>
         </FooterStyle>
     )

@@ -2,13 +2,14 @@ import styled from 'styled-components'
 
 export const NavStyle = styled.section `
 
-*{
-    font-family: "Work Sans", sans-serif;
+img{
+    height: 85px;
+    margin-top: 10%;
 }
 
 #nav{
     display: flex;
-    background-color: #EEEEF0;
+    background-color: #dddddd;
     padding: 0 6%;
     align-items: center;
     justify-content: space-between;
@@ -72,7 +73,7 @@ export const NavStyle = styled.section `
     font-size: 12px;
     cursor: pointer;
     font-weight: 600;
-    margin-right: -15%;
+    margin-right: -25%;
 }
 
 `
