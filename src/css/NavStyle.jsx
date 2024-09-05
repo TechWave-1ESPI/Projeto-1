@@ -72,7 +72,7 @@ export const NavStyle = styled.section `
     font-size: 12px;
     cursor: pointer;
     font-weight: 600;
-    margin-right: -30px;
+    margin-right: -15%;
 }
 
 `
