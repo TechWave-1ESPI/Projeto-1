@@ -1,11 +1,14 @@
 import { HomeStyle } from "../css/HomeStyle"
+import { Link } from "react-router-dom"
 import GlobalStyle from "../css/GlobalStyle"
+
 import WomanRunning from '../assets/woman-running.png'
 import NewCollection from '../assets/new-collection.png'
 import MenCollection from '../assets/men-collection.png'
 import WomanCollection from '../assets/woman-collection.png'
-import { Link } from "react-router-dom"
+
 import Sobre from './Sobre'
+import Produtos from './Produtos'
 
 const Home = () => {
     return(
@@ -57,6 +60,7 @@ const Home = () => {
                 </div>
                 
             </HomeStyle>
+            <Produtos/>
             <Sobre/>
         </>
     )
