@@ -52,6 +52,7 @@ margin-bottom: 60px;
     color: #D3DE62;
     margin-top: 1%;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .buttons button{
@@ -62,6 +63,7 @@ margin-bottom: 60px;
     font-weight: 500;
     transition: 0.2s;
     box-shadow: 0px 0px 10px #b0b38f9e;
+    cursor: pointer;
 }
 
 .buttons button:hover{

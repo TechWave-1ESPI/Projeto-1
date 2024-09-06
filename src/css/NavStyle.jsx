@@ -9,23 +9,23 @@ img{
 
 #nav{
     display: flex;
+    height: 15vh;
     padding: 0 6%;
-    background-color: #fdfdfd;
+    background-color: #f1f1f1;
     align-items: center;
     justify-content: space-between;
     box-shadow: 0px 0px 10px #f0f0f0;
 }
 
-.menuNav{
+.menu-nav{
     width: 50%;
-    height: 70px;
     gap: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.menuLink{
+.menu-link{
     list-style: none;
     display: flex;
     gap: 45px;
@@ -39,7 +39,7 @@ img{
     text-decoration: none;
     position: relative;
     padding-bottom: 4px;
-}
+}   
 
 .link::after{
     content: " ";
@@ -56,25 +56,25 @@ img{
     width: 100%;
 }
 
-.menuNav i{
+.menu-nav i{
     color: black;
     font-size: 18px;
 } 
 
-.menuBag{
+.menu-bag{
     background-color: #D3DE62;
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
 }
 
-.menuLogin{
+.menu-login{
     list-style: none;
     text-align: end;
     font-size: 12px;
     cursor: pointer;
     font-weight: 600;
-    margin-right: -25%;
+    margin-right: -20%;
 }
 
 `

@@ -1,10 +1,42 @@
 import { FooterStyle } from "../css/FooterStyle"
 import "bootstrap-icons/font/bootstrap-icons.css";
+import Logo from '../assets/sport store center.svg'
+import { Link } from "react-router-dom"
 
 const Footer = () => {
     return(
         <FooterStyle>
             <section id="footer">
+                <div id="redirection">
+                    <Link to='/'><img src={Logo} alt="logo site"/></Link>
+
+                    <div id="footer-links">
+                        <ul>
+                            <li><Link to='/' className="link">Home</Link></li>
+                            <li><Link to='/produtos' className="link">Produtos</Link></li>
+                            <li><Link to='/sobre' className="link">Sobre</Link></li>
+                            <li><Link to='/contato' className="link">Contato</Link></li>
+                        </ul>
+                        <ul>
+                            <li>Instagram</li>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>LinkedIn</li>
+                        </ul>
+                    </div>
+
+                    <div id="newsletter">
+                        <div id="text-newsletter">
+                            <h1>Newsletter</h1>
+                            <p>Want to know about out offers first?</p>
+                        </div>
+                        <div id="input-newsletter">
+                            <input type="text" placeholder="useremail@gmail.com"/>
+                            <button><i class="bi bi-arrow-right"></i></button> 
+                        </div>
+                    </div>
+                </div>
+
                 <div id="informacoes">
                     <div className="icon-informacao">
                         <i class="bi bi-telephone"></i>
@@ -23,7 +55,7 @@ const Footer = () => {
 
                     <div className="icon-informacao">
                         <i class="bi bi-clock"></i>
-                        <p>Funcionamento: 08h - 18h</p>
+                        <p>Monday - Friday | 08h - 18h <br/> Saturday | 08h - 12h</p>
                     </div>
                 </div>
 
