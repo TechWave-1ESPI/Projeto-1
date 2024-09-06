@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const SobreStyle = styled.section `
 
 #about{
-    padding: 3% 6%;
+    padding: 3% 6% 5% 6%;
     display: flex;
     height: 65vh;
 }

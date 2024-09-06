@@ -108,4 +108,81 @@ margin-bottom: 60px;
     font-size: 25px;
 }
 
+#collections{
+    padding: 5% 6% 0% 6%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+#collections img{
+    width: 45%;
+}
+
+.collection{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#men-collection{
+    background-color: #D9E14F;
+}
+
+#men-collection p{
+    text-align: right;
+    padding-right: 15%;
+}
+
+#men-collection button{
+    background-color: #232323;
+    color: #fff;
+    box-shadow: 1px 1px 10px #232323;
+}
+
+#woman-collection{
+    background-color: #232323;
+}
+
+#woman-collection p{
+    text-align: left;
+    color: white;
+    padding-left: 15%;
+}
+
+#woman-collection button{
+    background-color: white;
+    color: black;
+    right: 0;
+    box-shadow: 1px 1px 6px antiquewhite;
+}
+
+.text-collections{
+    padding: 8% 0;
+    width: 32%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-collections button{
+    width: 80%;
+    font-size: 16px;
+    font-weight: 400;
+    height: 18%;
+    border: none;
+    transition: 0.3s ease;
+    border-radius: 3px;
+}
+
+.text-collections button:hover{
+    transform: scale(1.05);
+}
+
+.text-collections p{
+    font-size: 36px;
+    font-weight: 500;
+}
 `
