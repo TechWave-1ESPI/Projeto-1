@@ -1,14 +1,14 @@
-import { FooterStyle } from "../css/FooterStyle"
 import "bootstrap-icons/font/bootstrap-icons.css";
-import Logo from '../assets/sport store center.svg'
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import Logo from '../assets/logo/sportstorecenter-white.svg';
+import { FooterStyle } from "../css/FooterStyle";
 
 const Footer = () => {
-    return(
+    return (
         <FooterStyle>
             <section id="footer">
                 <div id="redirection">
-                    <Link to='/'><img src={Logo} alt="logo site"/></Link>
+                    <Link to='/'><img src={Logo} alt="logo site" /></Link>
 
                     <div id="footer-links">
                         <ul>
@@ -31,8 +31,8 @@ const Footer = () => {
                             <p>Want to know about out offers first?</p>
                         </div>
                         <div id="input-newsletter">
-                            <input type="text" placeholder="useremail@gmail.com"/>
-                            <button><i class="bi bi-arrow-right"></i></button> 
+                            <input type="text" placeholder="useremail@gmail.com" />
+                            <button><i class="bi bi-arrow-right"></i></button>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const Footer = () => {
 
                     <div className="icon-informacao">
                         <i class="bi bi-clock"></i>
-                        <p>Monday - Friday | 08h - 18h <br/> Saturday | 08h - 12h</p>
+                        <p>Monday - Friday | 08h - 18h <br /> Saturday | 08h - 12h</p>
                     </div>
                 </div>
 
@@ -63,7 +63,7 @@ const Footer = () => {
                     <ul>
                         <li><p>Copyright @2024 - Todos os Direitos Reservados</p></li>
                     </ul>
-                    
+
                     <ul id="cookies">
                         <li>Privacy & Cookies</li>
                         <li>|</li>
