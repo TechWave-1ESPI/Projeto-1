@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const NavStyle = styled.section `
+export const NavStyle = styled.section`
 
 img{
     height: 85px;
@@ -11,7 +11,7 @@ img{
     display: flex;
     height: 15vh;
     padding: 0 6%;
-    background-color: #f1f1f1;
+    background-color: white;
     align-items: center;
     justify-content: space-between;
     box-shadow: 0px 0px 10px #f0f0f0;

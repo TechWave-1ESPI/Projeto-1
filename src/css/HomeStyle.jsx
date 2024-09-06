@@ -67,7 +67,7 @@ margin-bottom: 60px;
 }
 
 .buttons button:hover{
-    scale: transform(0.2);
+    transform: scale(1.05);
 }
 
 .buttons .secondary{
