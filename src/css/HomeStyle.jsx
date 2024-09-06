@@ -117,7 +117,7 @@ margin-bottom: 60px;
 }
 
 #collections img{
-    width: 45%;
+    width: 35%;
 }
 
 .collection{
