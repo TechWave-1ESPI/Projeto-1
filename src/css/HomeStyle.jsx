@@ -185,4 +185,26 @@ margin-bottom: 60px;
     font-size: 36px;
     font-weight: 500;
 }
+
+@media(max-width: 999px){
+    #collections{
+        height: 100vh;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .collection{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #men-collection p{
+        padding-right: 40%;
+    }
+
+    #woman-collection p{
+        padding-left: 40%;
+    }
+}
 `

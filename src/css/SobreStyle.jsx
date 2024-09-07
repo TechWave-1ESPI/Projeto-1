@@ -38,4 +38,37 @@ export const SobreStyle = styled.section `
     width: 110%;
 }
 
+@media(max-width: 999px){
+    #about{
+        flex-direction: column;
+        height: 105vh;
+        width: 100%;
+        padding: 0;
+    }
+
+    #about-image{
+        width: 100%;
+    }
+
+    #story{
+        width: 100%;
+        padding: 0;
+    }
+
+    #story h1{
+        text-align: center;
+        margin-top: 4%;
+    }
+
+    #story-text{
+        padding: 0 10%;
+        margin-top: 3%;
+        margin-bottom: 4%;
+    }
+
+    #story img{
+        display: none;
+    }
+}
+
 `
