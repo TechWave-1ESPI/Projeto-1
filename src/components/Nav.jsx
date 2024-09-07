@@ -19,8 +19,8 @@ const Nav = () => {
                             <li><Link to='/contato' className="link">Contato</Link></li>
                         </ul>
                         <ul className="menu-login">
-                            <li>Login</li>
-                            <li>Cadastro</li>
+                            <li><Link to='/login' className="link">Login</Link></li>
+                            <li><Link to='/login' className="link">Cadastro</Link></li>
                         </ul>
                         <ul className="menu-bag">
                             <i className="bi bi-bag"></i>

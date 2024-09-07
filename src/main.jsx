@@ -8,6 +8,7 @@ import Error from './routes/Error.jsx'
 import Sobre from './routes/Sobre.jsx'
 import Contato from './routes/Contato.jsx'
 import Produtos from './routes/Produtos.jsx'
+import Login from './routes/Login.jsx'
 import GlobalStyle from './css/GlobalStyle.jsx'
 
 const router = createBrowserRouter([
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
       {path: '/produtos', element: <Produtos/>},
       {path: '/sobre', element: <Sobre/>},
       {path: '/contato', element: <Contato/>},
+      {path: '/login', element: <Login/>},
     ]
   }
 ])
