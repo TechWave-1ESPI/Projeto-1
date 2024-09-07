@@ -8,6 +8,10 @@ export const ContatoStyle = styled.section`
   max-width: 600px;
   margin: 50px auto;
   text-align: center;
+
+  @media(max-width: 800px){
+    margin: 4% 3%;
+  }
 `;
 
 export const FormStyle = styled.form`
