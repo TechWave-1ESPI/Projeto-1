@@ -186,7 +186,7 @@ margin-bottom: 60px;
     font-weight: 500;
 }
 
-@media(max-width: 999px){
+@media(max-width: 800px){
     #collections{
         height: 100vh;
         flex-direction: column;

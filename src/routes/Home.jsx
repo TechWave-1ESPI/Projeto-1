@@ -1,5 +1,5 @@
-import { HomeStyle } from "../css/HomeStyle"
 import { Link } from "react-router-dom"
+import { HomeStyle } from "../css/HomeStyle"
 import GlobalStyle from "../css/GlobalStyle"
 
 import WomanRunning from '../assets/woman-running.png'
@@ -8,6 +8,7 @@ import MenCollection from '../assets/men-collection.png'
 import WomanCollection from '../assets/woman-collection.png'
 
 import Sobre from './Sobre'
+import Contato from './Contato'
 import Produtos from './Produtos'
 
 const Home = () => {
@@ -62,6 +63,7 @@ const Home = () => {
             </HomeStyle>
             <Produtos/>
             <Sobre/>
+            <Contato/>
         </>
     )
 }

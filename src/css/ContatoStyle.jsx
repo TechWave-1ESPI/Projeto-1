@@ -42,7 +42,8 @@ export const ButtonStyle = styled.button`
   cursor: pointer;
 
   &:hover {
-    background-color: #b0b38f;
+    background-color: #232323;
+    color: #fff;
     box-shadow: 0px 0px 20px #b0b38f;
   }
 `;
