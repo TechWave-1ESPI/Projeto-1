@@ -33,7 +33,7 @@ const Produtos = () => {
                         </div>
                         <div className="product-info-and-btn-container">
                             <div className="tittle-price-container">
-                                <p>Tracksuit</p>
+                                <p>Grey Outfit</p>
                                 <h3>$69</h3>
                             </div>
                             <div className="add-btn">
@@ -48,7 +48,7 @@ const Produtos = () => {
                         </div>
                         <div className="product-info-and-btn-container">
                             <div className="tittle-price-container">
-                                <p>Sweatsuit</p>
+                                <p>Brown Outfit</p>
                                 <h3>$79</h3>
                             </div>
                             <div className="add-btn">

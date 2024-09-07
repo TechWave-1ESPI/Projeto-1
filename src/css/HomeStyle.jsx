@@ -187,6 +187,61 @@ margin-bottom: 60px;
 }
 
 @media(max-width: 800px){
+
+    /* INICIO */
+    .main-text h1{
+        font-size: 60px;
+    }
+
+    .txt-and-img-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-woman{
+        padding-left: 15%;
+        padding-top: 5%;
+    }
+
+    .txt-and-img-container h3{
+        font-size: 35px;
+    }
+
+    .txt-and-button-container{
+        text-align: center;
+        align-items: center;
+        margin-top: 0%;
+    }
+
+    .buttons{
+        padding-left: 25%;
+        display: flex;
+        margin-top: 2%;
+        gap: 10px;
+        
+    }
+
+    .description-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description-txt{
+        margin-top: 10%;
+        padding-left: 20%;
+        text-align: justify;
+    }
+
+    .description-container img{
+        display: none;
+    }
+
+    .scroll-btn{
+        display: none;
+    }
+    /* FIM INICIO */
+
+
     #collections{
         height: 100vh;
         flex-direction: column;

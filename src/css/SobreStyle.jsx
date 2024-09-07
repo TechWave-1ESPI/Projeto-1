@@ -9,7 +9,7 @@ export const SobreStyle = styled.section `
 }
 
 #about-image{
-    height: 100%;
+    height: 30%;
     width: 60%;
 }
 
