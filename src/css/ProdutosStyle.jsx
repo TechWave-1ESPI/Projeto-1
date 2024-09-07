@@ -4,8 +4,8 @@ export const ProdutosStyle = styled.section `
 
 
 .product-container {
-    padding-top: 150px;
-    padding-bottom: 200px;
+    padding-top: 5%;
+    padding-bottom: 5%;
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Cria 4 colunas de igual largura */
     gap: 10px; /* Espaço entre os blocos */
@@ -24,7 +24,7 @@ export const ProdutosStyle = styled.section `
 }
 
 .product-img img {
-    width: 350px;
+    width: 320px;
     margin-bottom: -1%;
 }
 
@@ -43,9 +43,19 @@ export const ProdutosStyle = styled.section `
 .add-btn{
     padding: 4%;
     padding-top: 8%;
-    margin-left: 30%;
+    margin-left: 25%;
     color: #D3DE62;
     font-size: 30px;
+}
+
+@media(max-width: 800px){
+    .product-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-img img{
+        width: 200px;
+    }
 }
 
 `

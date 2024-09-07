@@ -38,7 +38,7 @@ export const SobreStyle = styled.section `
     width: 110%;
 }
 
-@media(max-width: 999px){
+@media(max-width: 800px){
     #about{
         flex-direction: column;
         height: 105vh;

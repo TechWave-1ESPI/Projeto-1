@@ -77,7 +77,7 @@ img{
     margin-right: -15%;
 }
 
-@media(max-width: 999px){
+@media(max-width: 800px){
     img{
         left: 0;
         height: 70px;

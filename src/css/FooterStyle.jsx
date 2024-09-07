@@ -138,7 +138,7 @@ img{
     gap: 20px;
 }
 
-@media(max-width: 999px) {
+@media(max-width: 800px) {
     #footer{
         height: 130vh;
     }
