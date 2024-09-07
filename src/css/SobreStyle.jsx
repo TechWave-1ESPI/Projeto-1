@@ -10,7 +10,7 @@ export const SobreStyle = styled.section `
 
 #about-image{
     height: 100%;
-    width: 60%;
+    width: 100%;
 }
 
 #story{
@@ -47,7 +47,8 @@ export const SobreStyle = styled.section `
     }
 
     #about-image{
-        width: 30%;
+        height: 30%;
+        width: 100%;
     }
 
     #story{
