@@ -94,6 +94,7 @@ img{
     }
 
     #nav{
+        justify-content: space-between;
         flex-direction: column;
     }
 
