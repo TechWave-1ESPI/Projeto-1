@@ -13,6 +13,9 @@ Turma - 1ESP1
 * Vinicius Fernandes Tavares Bittencourt (RM558909)
 * Weslley Oliveira Cardoso (RM557927)
 
+## Link Repositório
+https://github.com/Tech-Wace/Projeto-1
+
 ## Funcionalidades Principais
 
 - **Navegação Intuitiva:** Menu e links de navegação facilitam a exploração das seções da página inicial e acesso às coleções de produtos.
