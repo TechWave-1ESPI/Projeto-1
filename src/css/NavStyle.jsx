@@ -77,6 +77,16 @@ img{
     margin-right: -15%;
 }
 
+@media(max-width: 1200px){
+    #nav{
+        justify-content: space-evenly;
+    }
+
+    .menu-login{
+        margin: 0;
+    }
+}
+
 @media(max-width: 800px){
     img{
         left: 0;

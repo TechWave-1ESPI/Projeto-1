@@ -48,6 +48,16 @@ export const ProdutosStyle = styled.section `
     font-size: 30px;
 }
 
+@media(max-width: 1200px){
+    .product-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-img img{
+        width: 350px;
+    }
+}
+
 @media(max-width: 800px){
     .product-container{
         grid-template-columns: repeat(2, 1fr);

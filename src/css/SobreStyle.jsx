@@ -38,6 +38,16 @@ export const SobreStyle = styled.section `
     width: 110%;
 }
 
+@media(max-width: 1200px){
+    #story img{
+        display: none;
+    }
+
+    #story h1{
+        font-size: 40px;
+    }
+}
+
 @media(max-width: 800px){
     #about{
         flex-direction: column;
